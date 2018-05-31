@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Евгений Ерохов](https://up.htmlacademy.ru/htmlcss/21/user/588357).
-* Наставник: `Неизвестно`.
+* Наставник: [Павел Карачев](https://htmlacademy.ru/profile/karachev).
 
 ---
 
