@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
   	<header class="main-header">
@@ -31,19 +34,19 @@
           <img src="img/slide-1.png" width="698" height="413" alt="Слайд-1">
 					<h3>Долго, дорого,скрупулезно</h3>
 					<p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-  					<a href="#">Узнать больше</a>
+  					<a class="btn" href="#">Узнать больше</a>
 				</div>
 				<div class="slide">
           <img src="img/slide-2.png" width="663" height="430" alt="Слайд-2">
 					<h3>Любим математику как никто другой</h3>
 					<p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
-  					<a href="#">Узнать больше</a>
+  					<a class="btn" href="#">Узнать больше</a>
 				</div>
 				<div class="slide">
           <img src="img/slide-3.png" width="759" height="411" alt="Слайд-3">
 					<h3>Только ночь, только хардкор</h3>
 					<p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
-  					<a href="#">Узнать больше</a>
+  					<a class="btn" href="#">Узнать больше</a>
 				</div>  			
   		</section>
   		<section class="features">
@@ -73,10 +76,10 @@
 
 			<h2 class="visualy-hidden">Дизайн студия</h2>
 
-  			<p>Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
+  			<h3>Мы — маленькая, но гордая дизайн-студия из Краснодара.</h3>
   			<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
   			<p>Выполняем заказы на разработку:</p>
-  			<ul class="about-list">  				
+  			<ul class="about-list">          				
   				<li class="about-item">
   					Веб-сайтов любой сложности 					
   				</li>
@@ -144,17 +147,18 @@
   					ул. Б. Конюшенная, д. 19/8<br>
 					тел. +7(812)275-75-75<br>
 				</p>
-				<a class="button" href="#">Напишите нам</a>
+				<a class="btn" href="#">Напишите нам</a>
   		</section>
   	</main>
   	<footer class="main-footer">
   		<div class="footer-social">
   			<ul>
-  				<li><a class="social-button vk" href="#">Вконтакте</a></li>
-  				<li><a class="social-button fb" href="#">Фейсбук</a></li>
-  				<li><a class="social-button in" href="#">Инстаграм</a></li>
+  				<li><a class="social-button vk" href="#"><img src="img/vk-icon.svg" alt="Вконтакте"></a></li>
+  				<li><a class="social-button fb" href="#"><img src="img/fb-icon.svg" alt="Фейсбук"></a></li>
+  				<li><a class="social-button in" href="#"><img src="img/insta-icon.svg" alt="Инстаграм"></a></li>
   			</ul>
-  			<p><b>Давайте дружить, это выгодно!</b>Скидка 10% для друзей из социальных сетей.</p>
+  			<p>Давайте дружить, это выгодно!</p>
+        <p>Скидка 10% для друзей из социальных сетей.</p>
   		</div>
   	</footer>
     <section class="modal modal-feedback">
@@ -172,7 +176,7 @@
           <label for="user-text">Текст письма:</label>
           <textarea id="user-text" type="text" rows="8" cols="70" name="text" placeholder="В свободной форме"></textarea>
         </p>
-        <button class="button" type="submit">Отправить</button>
+        <button class="btn" type="submit">Отправить</button>
       </form>
       <button class="modal-close" type="button"><img src="img/close-cross.svg" alt="Закрыть"></button>
     </section>
