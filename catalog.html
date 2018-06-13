@@ -10,14 +10,14 @@
   <body>
   	<header class="main-header">
   		<nav class="main-navigation">
-  			<a class="main-header-logo" href="index.html">
+  			<a class="main-header-logo-inner" href="index.html">
   				<img src="img/nerds-logo.svg" alt="Логотип дизайн студии Нёрдс">
   			</a>
-  			<ul compact="site-navigtion">
-  				<li><a href="studio.html">Студия</a></li>
-  				<li><a href="clients.html">Клиенты</a></li>
-  				<li><a href="catalog.html">Магазин</a></li>
-  				<li><a href="contacts.html">Контакты</a></li>
+  			<ul compact="site-navigation">
+  				<li class="site-navigation-item"><a href="studio.html">Студия</a></li>
+  				<li class="site-navigation-item"><a href="clients.html">Клиенты</a></li>
+  				<li class="site-navigation-item site-navigation-item-current"><a>Магазин</a></li>
+  				<li class="site-navigation-item"><a href="contacts.html">Контакты</a></li>
   			</ul>
   			<ul class="user-navigation">
   				<li class="cart-link"><a href="#">Корзина</a></li>
@@ -46,7 +46,7 @@
 							<label for="filter-adaptive">Адаптивная</label>
 						</li>
 						<li class="filter-option">
-							<input class="visuali-hidden filter-input filter-input-radio" type="radio" name="grid-group" value="fixed" id="filter-fixed">
+							<input class="visuali-hidden filter-input filter-input-radio" type="radio" name="grid-group" value="fixed" id="filter-fixed" disabled="">
 							<label for="filter-fixed">Фиксированная</label>
 						</li>
 						<li class="filter-option">
@@ -80,7 +80,7 @@
 						</li>
 					</ul>
 				</fieldset>
-				<button type="submit" class="filter-button button">Показать</button>
+				<button type="submit" class="filter-button btn">Показать</button>
 			</form>			
 		</section>
 		<section class="gallery">
@@ -91,7 +91,12 @@
 				<a class="gallery-sort arrow" href="#down"><img src="img/icon-down-dir.svg" alt="Стрелка вниз"></a>
 				<a class="gallery-sort arrow" href="#up"><img src="img/icon-up-dir.svg" alt="Стрелка вверх"></a>
 			<figure>
-				<img src="img/img-sedona.jpg" width="360" height="576" alt="Sedona">
+				<div>
+					<img src="img/browser.jpg" width="360" height="40" alt="">
+				</div>
+				<div>
+					<img src="img/img-sedona.jpg" width="360" height="576" alt="Sedona">
+				</div>
 			</figure>
 			<figure>
 				<img src="img/img-pink.jpg" width="360" height="576" alt="Pink">
@@ -125,17 +130,17 @@
   					ул. Б. Конюшенная, д. 19/8<br>
 					тел. +7(812)275-75-75<br>
 				</p>
-				<a class="button" href="#">Напишите нам</a>
+				<a class="btn" href="#">Напишите нам</a>
   		</section>
 	</main>
 	<footer class="main-footer">
   		<div class="footer-social">
   			<ul>
-  				<li><a class="social-button vk" href="#">Вконтакте</a></li>
-  				<li><a class="social-button fb" href="#">Фейсбук</a></li>
-  				<li><a class="social-button in" href="#">Инстаграм</a></li>
+  				<li><a class="social-button vk" href="#"><img src="img/vk-icon.svg" alt="Вконтакте"></a></li>
+  				<li><a class="social-button fb" href="#"><img src="img/fb-icon.svg" alt="Фейсбук"></a></li>
+  				<li><a class="social-button in" href="#"><img src="img/insta-icon.svg" alt="Инстаграм"></a></li>
   			</ul>
-  			<b>Давайте дружить, это выгодно!</b>
+  			<p>Давайте дружить, это выгодно!</p>
   			<p>Скидка 10% для друзей из социальных сетей.</p>
   		</div>
   	</footer>
@@ -154,7 +159,7 @@
           <label for="user-text">Текст письма:</label>
           <textarea id="user-text" type="text" rows="8" cols="70" name="text" placeholder="В свободной форме"></textarea>
         </p>
-        <button class="button" type="submit">Отправить</button>
+        <button class="btn" type="submit">Отправить</button>
       </form>
       <button class="modal-close" type="button"><img src="img/close-cross.svg" alt="Закрыть"></button>
     </section>
