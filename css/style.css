@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', Arial, sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 400;
@@ -43,12 +43,12 @@ textarea {
 	color: black;
 	text-transform: uppercase;
 }
-.site-navigation-item a:hover,
-.cart-link a:hover {
+.site-navigation-item a[href]:hover,
+.cart-link a[href]:hover {
 	color: #fb565a;
 }	
-.site-navigation-item a:active,
-.cart-link a:active {
+.site-navigation-item a[href]:active,
+.cart-link a[href]:active {
 	color: #bdbdbd;
 }
 .site-navigation-item-current a,
@@ -59,7 +59,7 @@ textarea {
 }
 .slide {
 	background-color: #eeeeee;
-	background-image: url("img/slider-background.png");	  
+	background-image: url("../img/slider-background.png");	  
 }
 .slide h3 {
 	font-size: 55px;
@@ -91,31 +91,31 @@ textarea {
 	text-transform: uppercase;
 	color: black;
 }
-.features-list .btn {
+.features-item-site .btn {
 	background-color: #fb565a;
 }
-.features-list .btn:hover {
+.features-item-site .btn:hover {
 	background-color: #e74246;
 }
-.features-list .btn:active {
+.features-item-site .btn:active {
 	background-color: #d7373b;
 }
-.features-item:nth-child(2) .btn {
+.features-item-app .btn {
 	background-color: #00ca74;
 }
-.features-item:nth-child(2) .btn:hover {
+.features-item-app .btn:hover {
 	background-color: #00bc6c;
 }
-.features-item:nth-child(2) .btn:active {
+.features-item-app .btn:active {
 	background-color: #00aa62;
 }
-.features-item:nth-child(3) .btn {
+.features-item-presentation .btn {
 	background-color: #efc84a;
 }
-.features-item:nth-child(3) .btn:hover {
+.features-item-presentation .btn:hover {
 	background-color: #eab534;
 }
-.features-item:nth-child(3) .btn:active {
+.features-item-presentation .btn:active {
 	background-color: #e5a722;
 }
 .filtres fieldset {
@@ -241,6 +241,12 @@ textarea {
 .map .btn {
 	background-color: #fb565a;
 }
+.map .btn:hover {
+	background-color: #e74246;
+}
+.map .btn:active {
+	background-color: #d7373b;
+}
 .social-button {
 	background-color: #e1e1e1;		
 }
@@ -275,6 +281,12 @@ textarea {
 }
 .feedback-form .btn {
 	background-color: #fb565a;	
+}
+.feedback-form .btn:hover {
+	background-color: #e74246;	
+}
+.feedback-form .btn:active {
+	background-color: #d7373b;	
 }
 .modal-close {
 	opacity: 0.3;
