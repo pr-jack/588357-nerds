@@ -23,11 +23,17 @@ textarea {
 .main-header {
 	background-color: #eeeeee;
 }
-.main-header h1 {
+.main-header-inner {
+	background-color: #eeeeee;
+}
+.main-header-inner h1 {
 	font-size: 55px;
 	line-height: 55px;
 	font-weight: 500;
 	color: black;
+	margin-top: 80px;
+	margin-bottom: 115px;
+	text-align: center;
 }
 .main-header-logo-inner:hover {
 	opacity: 0.8;
@@ -159,7 +165,11 @@ textarea {
 	font-weight: 500;
 	color: black;
 }
-.about p:nth-of-type(2), p:nth-of-type(3) {
+.left p:nth-of-type(2) {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.right p {
 	font-weight: 700;
 	text-transform: uppercase;
 }
@@ -167,7 +177,7 @@ textarea {
 	font-size: 45px;
 	line-height: 10px;
 	font-weight: 700;
-	color: black;
+	color: black;	
 }
 .about-features-text {
 	font-size: 16px;
@@ -261,6 +271,7 @@ textarea {
 	line-height: 36px;
 	font-weight: 700;
 	color: black;
+	margin: 0;
 }
 .footer-social p:last-of-type {
 	font-size: 16px;
@@ -272,6 +283,8 @@ textarea {
 	line-height: 45px;
 	font-weight: 500;
 	color: black;
+	margin: 0;
+	padding: 0;
 }
 .feedback-form {
 	font-size: 16px;
@@ -300,3 +313,207 @@ textarea {
 .feedback-form textarea:focus {
 	border: 2px solid black;	
 }
+
+/*------Сеточные стили----- */
+
+.main-header {
+	width: 1200px;
+}
+.main-header-inner {
+	width: 1200px;
+	height: 360px;
+}
+.container {
+	width: 1200px;
+	padding: 0;
+	margin: 0;	
+}
+.main-navigation {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 45px;	
+	padding-left: 20px;	
+	padding-right: 20px;
+	padding-bottom: 15px;
+}
+.site-navigation {
+	display: flex;	
+}
+.site-navigation li {
+	padding-right: 50px;
+}
+.slide {
+	display: flex;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.slide-text {
+	width: 380px;
+	height: 420px;
+	margin-right: 20px;	
+}
+.slide-image {
+	width: 760px;
+}
+.features {
+	height: 510px;
+}
+.features-list {
+	display: flex;
+	justify-content: space-between;	
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.features-item {
+	width: 300px;
+}
+.about {
+	height: 530px;
+}
+.about-block {
+	display: flex;
+	justify-content: space-between;
+}
+.left {
+	width: 660px;
+	flex-direction: column;
+	padding-left: 20px;	
+}
+.right {
+	width: 360px;
+	flex-direction: column;
+	padding-right: 20px;
+}
+.right p {
+	align-self: center;
+}
+.about-features {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	justify-content: space-between;
+}
+.about-features li{
+	width: 103px;
+}
+
+.main-footer {
+	width: 1200px;
+}
+.partners {
+	height: 180px;
+}
+.partners-list {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	justify-content: space-around;
+}
+.map {
+	background-color: #eeeeee;
+}
+.contacts {
+	display: flex;
+	flex-direction: column;	
+	width: 270px;
+	height: 260px;
+	background-color: white;
+	padding: 50px;
+}
+.btn-contacts {
+	width: 220px;
+	height: 50px;	
+}
+.main-footer {	
+	height: 220px;
+}
+.main-footer .container {
+	display: flex;	
+	padding-top: 70px;
+}
+.social-list {
+	display: flex;
+	width: 260px;	
+	margin: 0;
+	padding: 0;
+	justify-content: space-around;
+	align-items: center;
+	margin-right: 140px;
+}
+.modal .container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: baseline;
+	padding: 75px 100px;	
+	background-color: #eeeeee;
+} 
+.modal-feedback {
+	display: flex;
+	width: 960px;
+	height: 590px;
+}
+.modal-close {
+	border: none;
+	background: none;	
+	margin: 0;
+	padding: 0;
+}
+.modal .caption {
+	width: 360px;
+}
+.modal .button {
+	width: 25px;
+	height: 25px;
+}
+.modal .feedback-form {
+	display: flex;
+	flex-direction: column;
+	width: 960px;
+}
+.modal .input {
+	width: 326px;	
+	padding: 15px;
+}
+.modal-input {
+	width: 360px;
+}
+.modal-btn {
+	width: 260px;
+	height: 50px;
+}
+.filtres {
+	width: 260px;
+	height: 770px;
+}
+.gallery {
+	width: 760px;
+}
+.gallery-item {
+	display: flex;
+	margin: 0;
+	flex-wrap: wrap;
+	margin-bottom: 60px;
+
+}
+.gallery-items {
+	width: 360px;
+	margin: 0;
+	margin-bottom: 35px;
+	margin-right: 40px;
+}
+.gallery-items:nth-child(2n) {
+	margin-right: 0;
+}
+.catalog-columns {
+	display: flex;
+	justify-content: space-between;
+}
+.pagination-list {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	height: 50px;
+}
+
