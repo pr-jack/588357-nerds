@@ -22,9 +22,11 @@ textarea {
 }
 .main-header {
 	background-color: #eeeeee;
+	margin: 0 auto;
 }
 .main-header-inner {
 	background-color: #eeeeee;
+	margin: 0 auto;
 }
 .main-header-inner h1 {
 	font-size: 55px;
@@ -40,6 +42,12 @@ textarea {
 }
 .main-header-logo-inner:active {
 	opacity: 0.3;
+}
+.main-navigation ul {
+	padding-left: 0;
+}
+.visualy-hidden {
+	display: none;
 }
 .site-navigation-item a,
 .cart-link a {
@@ -218,6 +226,7 @@ textarea {
 .pagination-item a {
 	color: black;
 	background-color: #eeeeee;
+	border-radius: 3px;
 }
 .pagination-item a:hover {
 	color: black;
@@ -235,7 +244,8 @@ textarea {
 .pagination-item-current a:active {
 	color: black;
 	background-color: white;
-	border: 1px solid #dbdbdb;
+	border: 2px solid #dbdbdb;
+	border-radius: 3px;
 }
 .map h4 {
 	font-size: 18px;
@@ -265,6 +275,9 @@ textarea {
 }
 .social-button:active {
 	background-color: #d7373b;		
+}
+.main-footer {
+	margin: 0 auto;
 }
 .footer-social p:first-of-type {
 	font-size: 36px;
@@ -374,12 +387,12 @@ textarea {
 	display: flex;
 	justify-content: space-between;
 }
-.left {
+.about-block-left {
 	width: 660px;
 	flex-direction: column;
 	padding-left: 20px;	
 }
-.right {
+.about-block-right {
 	width: 360px;
 	flex-direction: column;
 	padding-right: 20px;
@@ -431,14 +444,16 @@ textarea {
 	display: flex;	
 	padding-top: 70px;
 }
+.footer-social {
+	margin-right: 140px;
+}
 .social-list {
 	display: flex;
 	width: 260px;	
-	margin: 0;
 	padding: 0;
 	justify-content: space-around;
 	align-items: center;
-	margin-right: 140px;
+	
 }
 .modal .container {
 	display: flex;
@@ -489,6 +504,28 @@ textarea {
 .gallery {
 	width: 760px;
 }
+.gallery-sort-block {
+	display: flex;
+	margin: 0;
+	margin-bottom: 60px;
+	align-items: baseline;
+}
+.gallery-sort-block p {
+	margin: 0;
+	margin-right: 270px;
+}
+.gallery-sort-block a {
+	margin-right: 25px;
+}
+.gallery-sort-block a:nth-child(4) {
+	margin-right: 50px;
+}
+.gallery-sort-block a:nth-child(5) {
+	margin-right: 15px;
+}
+.gallery-sort-block a:nth-child(6) {
+	margin-right: 0;
+}
 .gallery-item {
 	display: flex;
 	margin: 0;
@@ -508,12 +545,30 @@ textarea {
 .catalog-columns {
 	display: flex;
 	justify-content: space-between;
+	margin-top: 60px;
 }
 .pagination-list {
 	display: flex;
 	padding: 0;
 	margin: 0;
 	list-style: none;
-	height: 50px;
+	height: 50px;	
+	margin-bottom: 60px;
 }
-
+.pagination-item a {
+	display: inline-block;
+	width: 50px;
+	height: 38px;
+	text-align: center;
+	padding-top: 12px;
+	margin-right: 10px;	
+}
+.pagination-item-current a {
+	width: 46px;
+	height: 34px;
+}
+.pagination-item:nth-child(4) a {
+	width: 260px;
+	text-transform: uppercase;
+	margin-right: 0;
+}
