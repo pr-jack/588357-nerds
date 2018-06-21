@@ -339,7 +339,7 @@ textarea {
 .container {
 	width: 1200px;
 	padding: 0;
-	margin: 0;	
+	margin: 0 auto;	
 }
 .main-navigation {
 	display: flex;
@@ -412,6 +412,8 @@ textarea {
 
 .main-footer {
 	width: 1200px;
+	height: 220px;
+	margin: 0 auto;
 }
 .partners {
 	height: 180px;
@@ -433,12 +435,11 @@ textarea {
 	background-color: white;
 	padding: 50px;
 }
-.btn-contacts {
+.btn-contacts {	
 	width: 220px;
-	height: 50px;	
-}
-.main-footer {	
-	height: 220px;
+	height: 34px;
+	padding-top: 16px;
+	border-radius: 3px;
 }
 .main-footer .container {
 	display: flex;	
@@ -496,6 +497,7 @@ textarea {
 .modal-btn {
 	width: 260px;
 	height: 50px;
+	border-radius: 3px;
 }
 .filtres {
 	width: 260px;
@@ -512,7 +514,7 @@ textarea {
 }
 .gallery-sort-block p {
 	margin: 0;
-	margin-right: 270px;
+	margin-right: auto;
 }
 .gallery-sort-block a {
 	margin-right: 25px;
@@ -528,16 +530,16 @@ textarea {
 }
 .gallery-item {
 	display: flex;
+	width: 760px;
+	justify-content: space-between;
 	margin: 0;
 	flex-wrap: wrap;
 	margin-bottom: 60px;
-
 }
 .gallery-items {
 	width: 360px;
 	margin: 0;
-	margin-bottom: 35px;
-	margin-right: 40px;
+	margin-bottom: 35px;	
 }
 .gallery-items:nth-child(2n) {
 	margin-right: 0;
@@ -555,13 +557,16 @@ textarea {
 	height: 50px;	
 	margin-bottom: 60px;
 }
+.pagination-list li {
+	margin-right: 10px;
+}
 .pagination-item a {
 	display: inline-block;
 	width: 50px;
 	height: 38px;
 	text-align: center;
 	padding-top: 12px;
-	margin-right: 10px;	
+		
 }
 .pagination-item-current a {
 	width: 46px;
