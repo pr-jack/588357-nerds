@@ -31,38 +31,37 @@
 
     		<section class="slider">
 
-    			<h2 class="visualy-hidden">Слайдер</h2>
+    			<div class="container">
 
-    				<div class="slide">          
-              <div class="slide-text text-one">
-        					<h3>Долго, дорого, скрупулезно.</h3>
-        					<p>Математически выверенный дизайн <br> для вашего сайта или мобильного приложения.</p>
-          				<a class="btn btn-link" href="#">Узнать больше</a>
+          <h2 class="visualy-hidden">Преимущества</h2>
+
+            <input class="visualy-hidden" type="radio" id="product-1" name="toggle" checked>
+            <input class="visualy-hidden" type="radio" id="product-2" name="toggle">
+            <input class="visualy-hidden" type="radio" id="product-3" name="toggle">
+              <div class="slider-controls">
+                <label class="slider-controls-item slider-controls-item--1" for="product-1">Первый</label>
+                <label class="slider-controls-item slider-controls-item--2" for="product-2">Второй</label>
+                <label class="slider-controls-item slider-controls-item--3" for="product-3">Третий</label>
               </div>
-              <div class="slide-image image-one">
-                <img src="img/slide-1.png" width="698" height="413" alt="Слайд-1">
-              </div>
-    				</div>
-            <div class="slide">          
-              <div class="slide-text text-two">
-      					<h3>Любим математику как никто другой</h3>
-      					<p>Никакого креатива, только математические формулы <br> для расчета идеальных пропорций.</p>
-        				<a class="btn btn-link" href="#">Узнать больше</a>
-              </div>
-              <div class="slide-image image-two">
-                <img src="img/slide-2.png" width="663" height="430" alt="Слайд-2">
-              </div>
-    				</div>            
-    				<div class="slide">          
-              <div class="slide-text text-three">
-                <h3>Только ночь, только хардкор</h3>
-                <p>Работать днем, как все? Мы против этого. <br> Ближе к полуночи работа только начинается.</p>
-                <a class="btn btn-link" href="#">Узнать больше</a>
-              </div>          
-    					<div class="slide-image image-three">
-                <img src="img/slide-3.png" width="759" height="423" alt="Слайд-3">
-              </div>
-    				</div>	
+            <ul class="slider-list">
+              <li class="slider-item">
+                <h3>Долго, дорого,<br> скрупулезно.</h3>
+                <p>Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
+                <a class="slider-item-button button" href="#">Узнать больше</a>
+              </li>
+              <li class="slider-item">
+                <h3>Любим математику как никто другой</h3>
+                <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+                <a class="slider-item-button button" href="#">Узнать больше</a>
+              </li>
+              <li class="slider-item">
+                <h3>Только ночь,<br> только хардкор</h3>
+                <p>Работать днем, как все? Мы против этого.<br> Ближе к полуночи работа только начинается.</p>
+                <a class="slider-item-button button" href="#">Узнать больше</a>
+              </li>
+            </ul>  
+      </div>
+        
         </section>
         <section class="features">
 
@@ -137,22 +136,22 @@
       			<ul class="partners-list">
       				<li class="partners-item">
       					<a href="#">
-      						<img src="img/logo-1.png" width="199" height="68" alt="HTML Academy">
+      						<img src="img/logo-1.png" alt="HTML Academy">
       					</a>
       				</li>
       				<li class="partners-item">
       					<a href="#">
-      						<img src="img/logo-2.png" width="209" height="90" alt="Барбершоп Бородинский">
+      						<img src="img/logo-2.png" alt="Барбершоп Бородинский">
       					</a>
       				</li>
       				<li class="partners-item">
       					<a href="#">
-      						<img src="img/logo-3.png" width="185" height="52" alt="Pink">
+      						<img src="img/logo-3.png" alt="Pink">
       					</a>
       				</li>
       				<li class="partners-item">
       					<a href="#">
-      						<img src="img/logo-4.png" width="173" height="84" alt="Mishka">
+      						<img src="img/logo-4.png" alt="Mishka">
       					</a>
       				</li>
       			</ul>  			
@@ -214,7 +213,7 @@
           
         <h2>Напишите нам</h2>
 
-        <button class="modal-close" type="button"><img src="img/close-cross.svg" width="25" height="25" alt="Закрыть"></button>
+        <button class="modal-close" type="button"><img src="img/close-cross.svg" alt="Закрыть"></button>
                       
           <form class="feedback-form" action="http://echo.htmlacademy.ru" method="post">                
             <p class="feedback-item">
@@ -227,7 +226,7 @@
             </p>                                  
             <p class="feedback-item-area">
               <label for="user-text">Текст письма:</label>                  
-              <textarea id="user-text" type="text" rows="5" cols="95" name="text" placeholder="В свободной форме"></textarea>
+              <textarea id="user-text" type="text" rows="5" cols="89" name="text" placeholder="В свободной форме"></textarea>
             </p>                                 
             <button class="btn modal-btn" type="submit">Отправить</button>
           </form>      
