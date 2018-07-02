@@ -721,7 +721,7 @@ main {
 	width: 360px;
 	height: 618px;
 }
-.gallery-items a:hover path {
+.gallery-items:hover path {
 	fill: #4d4d4d;
 }
 .gallery-items:hover .hover-block {
@@ -992,7 +992,7 @@ main {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: baseline;			
-	width: 763px;
+	width: 761px;
 	margin: 0 auto;
 	background-color: white;
 	background-image: url("../img/white-back.png");
@@ -1024,6 +1024,7 @@ main {
 	padding: 0;
 	opacity: 0.3;
 	outline: none;
+	cursor: pointer;
 }
 .modal-close:hover {
 	opacity: 1;
@@ -1050,8 +1051,17 @@ main {
 .feedback-form input:focus {
 	border-color: black;
 }
+.feedback-form input:hover {
+	border-color: #b4b9bb;
+}
+.feedback-form input:required:invalid {
+  border-color: #e74246;
+}
 .feedback-form textarea:focus {
-	border: 2px solid black;	
+	border-color: black;	
+}
+.feedback-form textarea:hover {
+	border-color: #b4b9bb;	
 }
 .modal .caption {
 	width: 360px;
@@ -1063,22 +1073,24 @@ main {
 .feedback-item {
 	width: 360px;
 	margin: 0;
-	margin-bottom: 31px;	
+	margin-bottom: 34px;	
 }
 .feedback-item-area {
 	width: 760px;
 	margin: 0;
-	margin-bottom: 38px;
+	margin-bottom: 43px;
 }
 .feedback-item-area textarea {
 	margin-top: 10px;
-	padding: 15px;
+	padding: 9px 14px 14px 14px;
 	border: 2px solid #d7dcde;
 	border-radius: 3px;
 }
 .modal .input {
-	width: 328px;	
-	padding: 14px;
+	width: 343px;	
+	padding-top: 12px;
+	padding-bottom: 15px;
+	padding-left: 12px;
 	margin-top: 10px;
 	border: 2px solid #d7dcde;
 	border-radius: 3px;
