@@ -173,8 +173,7 @@
             <img src="img/map-marker.png" width="231" height="190" alt="NЁRDS DESIGN STUDIO">
           </div>
           <span>
-              <img src="img/map.jpg" width="1200" height="416" alt="191186, Санкт-Петербург,<br>
-              ул. Б. Конюшенная, д. 19/8">   
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5991043651586!2d30.320894616097!3d59.938794181876254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1530602224681" width="1200" height="416" frameborder="0" style="border:0" allowfullscreen></iframe>   
           </span>                    			
     		</section>
   	</main>
@@ -208,8 +207,7 @@
         </div>
       </div>  		
   	</footer>
-    <section class="modal modal-feedback">
-      
+    <section class="modal modal-feedback">      
           
         <h2>Напишите нам</h2>
 
@@ -218,11 +216,11 @@
           <form class="feedback-form" action="http://echo.htmlacademy.ru" method="post">                
             <p class="feedback-item">
               <label for="user-name">Ваше имя:</label>                  
-              <input class="modal input" id="user-name" type="text" name="name" placeholder="Имя Фамилия">
+              <input class="modal-input" id="user-name" type="text" name="username" placeholder="Имя Фамилия" required>
             </p>                                 
             <p class="feedback-item">
               <label for="user-email">Ваш email:</label>                  
-              <input class="modal input" id="user-email" type="text" name="email" placeholder="email@example.com">
+              <input class="modal-input" id="user-email" type="email" name="email" placeholder="email@example.com" required>
             </p>                                  
             <p class="feedback-item-area">
               <label for="user-text">Текст письма:</label>                  
@@ -231,5 +229,6 @@
             <button class="btn modal-btn" type="submit">Отправить</button>
           </form>      
     </section>
+    <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
