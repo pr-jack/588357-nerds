@@ -13,7 +13,7 @@ var isStorageSupport = true;
 var storage = "";
   
   try {
-    storage = localStorage.getItem("login");
+    storage = localStorage.getItem("username");
   } catch (err) {
     isStorageSupport = false;
   }
@@ -38,7 +38,7 @@ close.addEventListener("click", function (evt) {
 form.addEventListener("submit", function (evt) {
   if (!username.value || !email.value) {
   evt.preventDefault();
-  console.log("Нужно ввести логин и пароль");
+  console.log("Нужно ввести имя и email");
   }else {
     if (isStorageSupport) {
       localStorage.setItem("username", username.value);
