@@ -1,17 +1,17 @@
 body {
+	min-width: 1200px;
 	margin: 0;
 	padding: 0;
-	font-family: 'Roboto', Arial, sans-serif;
+	font-family: Roboto, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 400;
 	color: #283136;
-	background-color: white;
-	min-width: 1200px;
+	background-color: white;	
 }
 a {
-	text-decoration: none;
 	display: inline-block;
+	text-decoration: none;	
 }
 ul {
 	list-style: none;
@@ -23,23 +23,23 @@ textarea {
 	outline: none;
 }
 .main-header {
-	background-color: #eeeeee;
-	margin: 0 auto;
 	width: 1200px;
+	margin: 0 auto;
+	background-color: #eeeeee;	
 }
 .main-header-inner {
-	background-color: #eeeeee;
-	margin: 0 auto;
 	width: 1200px;
-	padding-bottom: 71px;		
+	margin: 0 auto;	
+	padding-bottom: 71px;
+	background-color: #eeeeee;		
 }
 .main-header-inner h1 {
+	margin-top: 57px;
 	font-size: 55px;
-	line-height: 55px;
 	font-weight: 500;
-	color: black;
-	margin-top: 57px;	
+	line-height: 55px;			
 	text-align: center;
+	color: black;
 }
 .main-header-logo-inner:hover {
 	opacity: 0.8;
@@ -49,12 +49,12 @@ textarea {
 }
 .main-navigation {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding-top: 49px;	
-	padding-left: 20px;	
+	justify-content: space-between;	
+	padding-top: 49px;
+	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 15px;
+	align-items: center;
 }
 .main-navigation ul {	
 	padding-left: 0;
@@ -67,9 +67,9 @@ main {
 	margin: 0 auto;	
 }
 .container {
-	width: 1200px;
-	padding: 0;
-	margin: 0 auto;	
+	width: 1200px;	
+	margin: 0 auto;
+	padding: 0;	
 }
 .user-navigation {
 	margin: 0;
@@ -87,9 +87,9 @@ main {
 .cart-link a {	
 	font-size: 16px;
 	line-height: 30px;
-	font-weight: 500;
-	color: black;
+	font-weight: 500;	
 	text-transform: uppercase;
+	color: black;
 }
 .cart-link {
 	position: relative;
@@ -130,10 +130,10 @@ main {
 .catalog-columns {
 	display: flex;
 	justify-content: space-between;
-	padding-left: 20px;
-	padding-right: 20px;	
 	margin-top: 55px;
 	margin-bottom: -80px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 .slider {
 	position: relative;  
@@ -141,14 +141,14 @@ main {
 }
 .slider-controls {
 	position: absolute;
-	left: 50%;
-	bottom: 104px;
-	z-index: 100;  
 	width: 160px;
 	height: 18px;
-	text-align: center;
+	left: 50%;
+	bottom: 104px;	  
 	font-size: 0;
+	text-align: center;	
 	transform: translateX(-50%);
+	z-index: 100;
 }
 .slider-controls label {
 	position: relative;  
@@ -162,13 +162,13 @@ main {
 .slider-controls label::after {
 	content: "";  
 	position: absolute;
-	top: 8px;
-	left: 8px;
-	z-index: 1;  
 	width: 18px;
-	height: 18px;  
+	height: 18px;
+	top: 8px;
+	left: 8px;  
 	background: #ffffff;  
 	border-radius: 50%;
+	z-index: 1;
 }
 .slider-list {
 	margin: 0;
@@ -209,23 +209,23 @@ main {
 #product-3:checked ~ .slider-controls .slider-controls-item--3::before {
 	content: "";
 	position: absolute;
-	left: 50%;
-	top: 50%;
-	z-index: 2;
 	width: 4px;
 	height: 4px;
+	left: 50%;
+	top: 50%;	
 	margin: -4px;
 	background-color: inherit;
 	border: 2px solid #c1c1c1;
 	border-radius: 50%;
+	z-index: 2;
 }
 .slider-item h3 {
 	max-width: 600px;
 	margin: 0;
 	margin-bottom: 27px;  
 	font-size: 55px;
-	line-height: 55px;
 	font-weight: 500;
+	line-height: 55px;	
 }
 .slider-item p {
 	max-width: 430px;
@@ -237,11 +237,11 @@ main {
 	width: 240px;
 	padding: 16px 0;  
 	font-size: 16px;
-	line-height: 18px;
-	color: #ffffff;
+	line-height: 18px;	
 	text-transform: uppercase;
 	text-align: center;
-	text-decoration: none;  
+	text-decoration: none;
+	color: #ffffff;  
 	background-color: #fb565a;
 	border-radius: 3px;
 	border: none;
@@ -251,17 +251,17 @@ main {
 	background-color: #e74246;
 }
 .button:active {
-	background-color: #d7373b;
 	color: rgba(255, 255, 255, 0.3);
+	background-color: #d7373b;	
 	box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
 }
 .btn {
 	font-size: 16px;
-	line-height: 18px;
-	color: white;
+	line-height: 18px;	
 	text-align: center;
 	vertical-align: middle;
 	text-transform: uppercase;
+	color: white;
 	border: none;
 	outline: none;
 }
@@ -280,10 +280,11 @@ main {
 	background-color: #d7373b;
 }
 .features {
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 80px;
+	width: 1200px;
+	margin: 0 auto;
 	margin-top: 80px;
+	padding-left: 20px;
+	padding-bottom: 80px;	
 	border-bottom: 2px solid #eeeeee;
 }
 .features ul {
@@ -297,12 +298,12 @@ main {
 	margin-top: 16px;
 }
 .features-item h3 {
+	margin: 0;
+	margin-top: 19px;
 	font-size: 24px;
 	line-height: 30px;
 	text-transform: uppercase;
-	color: black;
-	margin: 0;
-	margin-top: 19px;
+	color: black;	
 }
 .features-item {
 	width: 300px;
@@ -344,8 +345,8 @@ main {
 }
 .about h3 {
 	font-size: 45px;
-	line-height: 45px;
 	font-weight: 500;
+	line-height: 45px;	
 	color: black;
 }
 .about-block {
@@ -368,8 +369,8 @@ main {
 }
 .about-block-left p:nth-of-type(2) {
 	font-weight: 700;
-	text-transform: uppercase;
 	margin-bottom: 23px;
+	text-transform: uppercase;	
 }
 .about-list {
 	margin: 0;
@@ -387,33 +388,33 @@ main {
 	content: "";
 	width: 25px;
 	height: 2px;
-	background-color: #fb565a;
 	top: 12px;
 	left: -34px;
+	background-color: #fb565a;	
 }
 .about-block-right {
 	width: 360px;	
 	padding-right: 20px;
 }
 .about-block-right p:nth-of-type(1) {
-	font-weight: 700;
-	text-transform: uppercase;
-	padding-left: 17px;
 	margin: 0;
 	margin-top: 30px;
+	padding-left: 17px;
+	font-weight: 700;
+	text-transform: uppercase;	
 }
 .about-features {
-	display: block;
-	padding: 0;
+	display: block;	
 	margin: 0;
-	margin-top: 58px;	
+	margin-top: 58px;
+	padding: 0;	
 }
 .about-features-num {
+	margin-right: 17px;
 	font-size: 45px;
 	line-height: 10px;
 	font-weight: 700;
-	color: black;
-	margin-right: 17px;
+	color: black;	
 }
 .about-features-num:last-of-type {
 	margin: 0;
@@ -424,10 +425,10 @@ main {
 .about-features-text {
 	display: flex;	
 	width: 360px;
-	font-size: 16px;
-	line-height: 18px;
-	font-weight: 400;	
 	margin-top: 19px;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;	
 }
 .about-features-text span {
 	margin-right: 24px;
@@ -440,9 +441,9 @@ main {
 	height: 770px;
 }
 .filter-item {
-	padding: 0;
 	margin: 0;
 	margin-bottom: 54px;
+	padding: 0;	
 	border: none;
 }
 .filter-item + .grid {
@@ -452,19 +453,19 @@ main {
 	margin-bottom: 28px;
 }
 .filter legend {
-	font-size: 18px;
-	line-height: 30px;
-	font-weight: 700;
-	color: black;
-	text-transform: uppercase;		
 	margin-bottom: 19px;
+	font-size: 18px;	
+	font-weight: 700;
+	line-height: 30px;
+	color: black;
+	text-transform: uppercase;	
 }
 .filter-item legend {
 	padding-top: 4px;
 }
 .filter ul {
-	padding: 0;
 	margin: 0;
+	padding: 0;	
 }
 .filter-option {	
 	margin-bottom: 20px;
@@ -479,20 +480,20 @@ main {
 .filter-input-radio + label::before {
 	content: "";
 	position: absolute;
-	top: -3px;
-	left: -35px;
 	width: 26px;
-	height: 26px;		
+	height: 26px;
+	top: -3px;
+	left: -35px;			
 	background-image: url("../img/radio-off.svg");
 	background-repeat: no-repeat;	
 }
 .filter-input-radio:checked + label::after {
 	content: "";
 	position: absolute;
-	top: -3px;
-	left: -35px;
 	width: 26px;
 	height: 26px;
+	top: -3px;
+	left: -35px;	
 	background-image: url("../img/radio-on.svg");
 	background-repeat: no-repeat;
 	background-position: 0 0;	
@@ -503,10 +504,10 @@ main {
 .filter-input-checkbox + label::before {
 	content: "";
 	position: absolute;
-	top: -3px;
-	left: -36px;	
 	width: 28px;
 	height: 28px;
+	top: -3px;
+	left: -36px;	
 	background-image: url("../img/checkbox-off.svg");
 	background-repeat: no-repeat;
 	background-position: 0 0;	
@@ -514,10 +515,10 @@ main {
 .filter-input-checkbox:checked + label::after {
 	content: "";
 	position: absolute;
-	top: -3px;
-	left: -36px;
 	width: 24px;
-	height: 24px;  
+	height: 24px;
+	top: -3px;
+	left: -36px;	  
 	background-image: url("../img/checkbox-on.svg");
 	background-repeat: no-repeat;
 	background-position: 0 0;
@@ -528,9 +529,9 @@ main {
 }
 .filter-item legend {
 	font-size: 18px;
-	line-height: 24px;
-	text-transform: uppercase;
 	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;	
 }
 .range-controls {
 	position: relative;
@@ -553,10 +554,10 @@ main {
 }
 .range-controls .toggle {
 	position: absolute;
-	top: 31px;
-	left: 0;
 	width: 4px;
 	height: 4px;
+	top: 31px;
+	left: 0;	
 	padding: 0;
 	border: 8px solid #ffffff;
 	background-color: #ababab;
@@ -583,8 +584,8 @@ main {
 }
 .price-controls input {
 	width: 60px;
-	padding: 8px 10px;
 	margin-left: 10px;
+	padding: 8px 10px;	
 	font-family: Roboto, Arial, sans-serif;
 	font-size: 16px;
 	text-align: center;
@@ -1093,6 +1094,9 @@ main {
 	color: #e74246;
 }
 .modal-input::-webkit-input-placeholder {
+	color: #e74246;
+}
+.modal-input:-ms-input-placeholder {
 	color: #e74246;
 }
 .modal-btn {
