@@ -5,11 +5,13 @@ var popup = document.querySelector(".modal-feedback");
 var close = document.querySelector(".modal-close");
 
 var username = popup.querySelector("[name=username]");
+
 var email = popup.querySelector("[name=email]");
 
 var form = popup.querySelector("form");
 
 var isStorageSupport = true;
+
 var storage = "";
   
   try {
@@ -17,7 +19,6 @@ var storage = "";
   } catch (err) {
     isStorageSupport = false;
   }
-
       
 link.addEventListener("click", function (evt) {
   evt.preventDefault();
