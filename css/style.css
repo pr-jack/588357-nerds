@@ -457,8 +457,8 @@ main {
 	font-size: 18px;	
 	font-weight: 700;
 	line-height: 30px;
-	color: black;
-	text-transform: uppercase;	
+	text-transform: uppercase;
+	color: black;		
 }
 .filter-item legend {
 	padding-top: 4px;
@@ -609,11 +609,11 @@ main {
 	opacity: 0.5;
 }
 .filter-button {
-	color: black;
-	background-color: #eeeeee;
 	width: 260px;
 	height: 50px;
-	padding: 0;	
+	padding: 0;
+	color: black;
+	background-color: #eeeeee;		
 	border-radius: 3px;
 	cursor: pointer;
 }
@@ -631,18 +631,18 @@ main {
 	width: 760px;
 }
 .gallery p {
-	font-size: 18px;
-	line-height: 18px;
+	font-size: 18px;	
 	font-weight: 700;
-	color: black;
+	line-height: 18px;
 	text-transform: uppercase;
+	color: black;	
 }
 .gallery-sort-block a {
+	margin-right: 26px;
 	font-size: 14px;
 	line-height: 18px;
-	color: black;
-	margin-right: 26px;
 	text-transform: uppercase;
+	color: black;	
 }
 .gallery-sort-block {
 	display: flex;
@@ -675,10 +675,10 @@ main {
 }
 .gallery-item {
 	display: flex;
-	width: 760px;
 	justify-content: space-between;
-	margin: 0;
 	flex-wrap: wrap;
+	width: 760px;	
+	margin: 0;	
 	margin-bottom: 27px;
 }
 .gallery-items {
@@ -710,9 +710,9 @@ main {
 .hover-block {
 	display: none;	
 	position: absolute;
-	top: 388px;
 	width: 360px;
 	height: 230px;
+	top: 388px;	
 	background-color: #eeeeee;
 }
 .btn-gallery {
@@ -745,19 +745,19 @@ main {
 }
 .gallery-block p {
 	margin: 0;
-	font-size: 16px;
-	line-height: 18px;
+	font-size: 16px;	
 	font-weight: 400;
-	color: #666666;
+	line-height: 18px;
 	text-transform: unset;
+	color: #666666;	
 }
 .partners {	
+	max-width: 1160px;
+	margin: 0 auto;
 	padding-top: 40px;
 	padding-bottom: 39px;
 	border-top: 2px solid #eeeeee;
-	border-bottom: 2px solid #eeeeee;
-	max-width: 1160px;
-	margin: 0 auto;
+	border-bottom: 2px solid #eeeeee;	
 }
 .partners-list {
 	display: flex;
@@ -780,10 +780,10 @@ main {
 .partners-item:not(:first-of-type):before {
 	position: absolute;
 	content: "";
-	top: 22px;
-	left: -21px;
 	width: 2px;
 	height: 55px;
+	top: 22px;
+	left: -21px;	
 	background-color: #eeeeee;
 }
 .partners-item a:hover {
@@ -794,11 +794,11 @@ main {
 }
 .pagination-list {
 	display: flex;
-	padding: 0;
-	margin: 0;
-	list-style: none;
 	height: 50px;
+	margin: 0;
 	margin-bottom: 60px;
+	padding: 0;	
+	list-style: none;	
 }
 .pagination-list li {
 	margin-right: 11px;
@@ -815,8 +815,8 @@ main {
 }
 .pagination-item:nth-child(4) a {
 	width: 260px;
-	text-transform: uppercase;
 	margin-right: 0;
+	text-transform: uppercase;	
 }
 .pagination-item a:hover {
 	color: black;
@@ -847,17 +847,17 @@ main {
 }
 .contacts {
 	position: absolute;
+	max-width: 320px;
+	padding: 48px 50px 47px 50px;
 	left: 20px;
-	top: 55px;	
-	max-width: 320px;	
-	background-color: white;
-	padding: 48px 50px 47px 50px;	
+	top: 55px;		
+	background-color: white;		
 }
 .contacts h4 {
 	margin: 0;
-	font-size: 18px;
-	line-height: 30px;
+	font-size: 18px;	
 	font-weight: 700;
+	line-height: 30px;
 	text-transform: uppercase;
 }
 .contacts p:nth-child(3) {
@@ -866,17 +866,17 @@ main {
 	margin-bottom: 35px;
 }
 .map-contacts {
-	padding: 0;
 	margin: 0;
-	margin-top: 23px;	
-	font-size: 16px;
-	line-height: 18px;
+	margin-top: 23px;
+	padding: 0;		
+	font-size: 16px;	
 	font-weight: 400;
+	line-height: 18px;
 }
 .map-marker {
-	position: absolute;
-	left: 550px;
+	position: absolute;	
 	top: 3px;
+	left: 550px;
 }
 .btn-contacts {	
 	width: 220px;	
@@ -906,8 +906,7 @@ main {
 .main-footer {
 	margin: 0 auto;
 	width: 1200px;
-	height: 220px;
-	margin: 0 auto;
+	height: 220px;	
 }
 .main-footer .container {
 	display: flex;	
@@ -917,19 +916,19 @@ main {
 	margin-right: 140px;
 }
 .footer-social p:first-of-type {
-	font-size: 36px;
-	line-height: 36px;
-	font-weight: 700;
-	color: black;
 	margin: 0;
 	margin-top: 6px;
+	font-size: 36px;	
+	font-weight: 700;
+	line-height: 36px;
+	color: black;	
 }
 .footer-social p:last-of-type {
-	font-size: 16px;
-	line-height: 22px;
-	font-weight: 400;
 	margin: 0;
 	margin-top: 9px;
+	font-size: 16px;	
+	font-weight: 400;
+	line-height: 22px;
 }
 .social-list {
 	display: flex;
@@ -945,11 +944,11 @@ main {
 }
 .social-button {
 	display: flex;
-	width: 80px;
-	height: 80px;
-	border-radius: 50%;
 	justify-content: center;
 	align-items: center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;	
 }
 .social-button:active path {
 	fill: #e37376;	
@@ -973,45 +972,44 @@ main {
 }
 .modal {		
 	position: fixed;	
-	margin: 0 auto;
-	top: 30px;
+	margin: auto;
+	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
 }
-.modal-feedback {		
-	display: flex;
+.modal-feedback {	
 	display: none;	
 	width: 760px;
-	height: 522px;	
+	height: 522px;
+	padding: 67px 96px 0 100px;
 	background-color: white;
 	background-image: url("../img/white-back.png");
-	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);	
-	padding: 67px 96px 0 100px;		
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);			
 }
 .modal-show {	
 	display: block;	
 	animation: bounce 0.7s;	
 }
 .modal-feedback h2 {
-	font-size: 45px;
-	line-height: 45px;
-	font-weight: 500;
-	color: black;
 	margin: 0;
-	padding: 0;
 	margin-bottom: 41px;
+	padding: 0;
+	font-size: 45px;	
+	font-weight: 500;
+	line-height: 45px;
+	color: black;	
 }
 .modal-close {
 	position: absolute;
-	top: 77px;
-	left: 849px;
 	width: 25px;
 	height: 25px;
-	border: none;
-	background: none;	
 	margin: 0;
 	padding: 0;
+	top: 77px;
+	left: 849px;	
+	border: none;
+	background: none;	
 	opacity: 0.3;
 	outline: none;
 	cursor: pointer;
@@ -1023,9 +1021,9 @@ main {
 	display: flex;
 	flex-wrap: wrap;	
 	justify-content: space-between;
-	font-size: 16px;
-	line-height: 18px;
+	font-size: 16px;	
 	font-weight: 700;
+	line-height: 18px;
 	color: black;	
 }
 .feedback-form .btn {
@@ -1044,7 +1042,7 @@ main {
 	border-color: #b4b9bb;
 }
 .feedback-form input:required:invalid {
-  border-color: #e74246;
+	border-color: #e74246;
 }
 .feedback-form textarea:focus {
 	border-color: black;	
@@ -1071,22 +1069,22 @@ main {
 .feedback-item-area textarea {
 	display: inline-block;
 	box-sizing: content-box;
+	resize: none;
 	width: 730px;
 	height: 90px;
 	margin-top: 10px;
 	padding: 9px 14px 14px 14px;
-	border: 2px solid #d7dcde;
-	border-radius: 3px;
 	font-family: 'Roboto', Arial, sans-serif;
-	font-size: 16px;	
-	resize: none;
+	font-size: 16px;
+	border: 2px solid #d7dcde;
+	border-radius: 3px;	
 }
 .modal-input {
-	width: 343px;	
+	width: 343px;
+	margin-top: 10px;	
 	padding-top: 12px;
 	padding-bottom: 15px;
-	padding-left: 12px;
-	margin-top: 10px;
+	padding-left: 12px;	
 	border: 2px solid #d7dcde;
 	border-radius: 3px;	
 }
