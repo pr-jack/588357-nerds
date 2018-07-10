@@ -35,7 +35,7 @@ close.addEventListener("click", function (evt) {
 	popup.classList.remove("modal-show");
 });
 
-form.addEventListener("submit", function (evt) {
+form.addEventListener("click", function (evt) {
 	if (!username.value || !email.value) {
 		evt.preventDefault();
 	popup.classList.add("modal-error");
