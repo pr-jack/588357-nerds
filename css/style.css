@@ -836,6 +836,7 @@ a {
 .text-block {
 	width: 228px;
 	text-align: center;
+	margin-bottom: 18px;
 }
 .mini {
 	width: 170px;
@@ -1004,7 +1005,6 @@ a {
 }
 .social-button:active {
 	background-color: #d7373b;
-	background-image: opacity 0.3;
 }
 .main-footer {
 	margin: 0 auto;
