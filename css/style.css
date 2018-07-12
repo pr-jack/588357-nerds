@@ -160,7 +160,7 @@ a {
 .slider {
 	position: relative;
 	margin-left: auto;
-	margin-right: auto; 
+	margin-right: auto;
 	background-color: #eeeeee;
 }
 .slider-controls {
@@ -694,7 +694,6 @@ a {
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 18px;
-	text-transform: uppercase;
 	color: #000000;
 }
 .gallery-sort-block a {
@@ -718,6 +717,7 @@ a {
 .gallery-sort-block p {
 	margin: 0;
 	margin-right: 266px;
+	text-transform: uppercase;
 }
 .gallery-sort-block a:nth-child(4) {
 	margin-right: 45px;
@@ -827,7 +827,6 @@ a {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 18px;
-	text-transform: unset;
 	color: #666666;
 }
 .gallery-block a {
@@ -839,7 +838,7 @@ a {
 	margin-bottom: 18px;
 }
 .mini {
-	width: 170px;
+	width: 171px;
 	margin-bottom: 18px;
 }
 .partners {

@@ -127,10 +127,10 @@ a{display:inline-block; text-decoration:none; vertical-align:middle}
 .filter-button:hover{color:#000; background-color:#dfdfdf}
 .filter-button:active{color:#000; background-color:#d5d5d5; opacity:0.3; -webkit-box-shadow:inset 0 1px 0 1px #bfbfbf; box-shadow:inset 0 1px 0 1px #bfbfbf}
 .gallery{width:760px; padding-right:20px}
-.gallery p{font-size:18px; font-weight:700; line-height:18px; text-transform:uppercase; color:#000}
+.gallery p{font-size:18px; font-weight:700; line-height:18px; color:#000}
 .gallery-sort-block a{margin-right:26px; font-size:14px; line-height:18px; text-transform:uppercase; color:#000}
 .gallery-sort-block{display:-webkit-box; display:-ms-flexbox; display:flex; margin:0; margin-bottom:56px; padding-top:3px; -webkit-box-align:baseline; -ms-flex-align:baseline; align-items:baseline}
-.gallery-sort-block p{margin:0; margin-right:266px}
+.gallery-sort-block p{margin:0; margin-right:266px; text-transform:uppercase}
 .gallery-sort-block a:nth-child(4){margin-right:45px}
 .gallery-sort-block a:nth-child(5){margin-right:18px}
 .gallery-sort-block a:nth-child(6){margin-right:0}
@@ -151,10 +151,10 @@ a{display:inline-block; text-decoration:none; vertical-align:middle}
 .btn-gallery:active{background-color:#d7373b; -webkit-box-shadow:inset 0 2px 0 0 #c13135; box-shadow:inset 0 2px 0 0 #c13135}
 .gallery-block{display:-webkit-box; display:-ms-flexbox; display:flex; -webkit-box-orient:vertical; -webkit-box-direction:normal; -ms-flex-direction:column; flex-direction:column; -webkit-box-align:center; -ms-flex-align:center; align-items:center}
 .gallery-block h3{text-transform:uppercase; margin:0 auto; margin-top:28px; margin-bottom:17px}
-.gallery-block p{margin:0; font-size:16px; font-weight:400; line-height:18px; text-transform:unset; color:#666}
+.gallery-block p{margin:0; font-size:16px; font-weight:400; line-height:18px; color:#666}
 .gallery-block a{color:#000}
 .text-block{width:228px; text-align:center; margin-bottom:18px}
-.mini{width:170px; margin-bottom:18px}
+.mini{width:171px; margin-bottom:18px}
 .partners{max-width:1160px; margin:0 auto; padding-top:40px; padding-bottom:39px; border-top:2px solid #eee; border-bottom:2px solid #eee}
 .partners-list{list-style:none; display:-webkit-box; display:-ms-flexbox; display:flex; -webkit-box-pack:justify; -ms-flex-pack:justify; justify-content:space-between; margin:0; padding-left:0}
 .partners-item{position:relative; width:260px; height:100px}
